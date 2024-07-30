@@ -7,13 +7,13 @@ We combine the three training losses to fine-tune a classifier. Adversarial trai
 <p align=center><img src="code.png" width="600" center/>
 
 ## Datasets 
-#### Instagram cyberbullying detection datasets （Need to request from the dataset author）
+#### [1] Instagram cyberbullying detection datasets （Need to request from the dataset author）
 Homa Hosseinmardi, Sabrina Arredondo Mattson, Rahat Ibn Rafiq, Richard Han, Qin Lv, and Shivakant Mishra. 2015. **Analyzing labeled cyberbullying incidents on the instagram social network**. In _Socinfo_. Springer, 49–66.
-#### Vine cyberbullying detection datasets （Need to request from the dataset author）
+#### [2] Vine cyberbullying detection datasets （Need to request from the dataset author）
 Rahat Ibn Rafiq, Homa Hosseinmardi, Richard Han, Qin Lv, Shivakant Mishra, and Sabrina Arredondo Mattson. 2015. **Careful what you share in six seconds: Detecting cyberbullying instances in Vine**. In _ASONAM_. ACM, 617–622.
-#### Swear lexicon_1 (Publicly available)
+#### [3] Swear lexicon_1 (Publicly available)
 Agrawal S, Awekar A. 2018 Mar 1. **Deep learning for detecting cyberbullying across multiple social media platforms**. In European conference on information retrieval 2018 Mar 1 (pp. 141-153). 
-#### Swear lexicon_2 (Publicly available)
+#### [4] Swear lexicon_2 (Publicly available)
 We use Google bad words lists[https://code.google.com/archive/p/badwordslist/downloads]
 
 ### Python package version
