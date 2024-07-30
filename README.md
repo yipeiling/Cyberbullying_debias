@@ -4,7 +4,7 @@ Implementation of paper: ID-XCB: Data-independent Debiasing for Fair and Accurat
 
 ## Core idea and implementation
 We combine the three training losses to fine-tune a classifier. Adversarial training(Embedding loss) and task training(BCELoss) optimise ID-XCB model parameters on a training dataset and simultaneously enforce the fairness constraints(FC) on a validation set to reduce swear word impact.
-<p align=center><img src="formular.png" width="300" center/>
+<p align=center><img src="code.png" width="300" center/>
 
 ## Datasets 
 #### Instagram cyberbullying detection datasets （Need to request from the dataset author）
