@@ -19,13 +19,12 @@ We use Google bad words lists[https://code.google.com/archive/p/badwordslist/dow
 ### Python package version
 * pandas==2.0.3
 * scikit_learn=1.2.2
-* torch==2.2.2
+* torch==2.3.1+cu121
 * numpy==1.25.2
 * transformers==4.40.0
 * datasets==2.18.0
-* accelerate==0.29.3
-* evaluate==0.4.1
-* bitsandbytes==0.43.1
+* python==3.10.12
+* json==2.0.9
+* nltk==3.8.1
 * huggingface_hub==0.22.2
-* trl==0.8.6
-* peft==0.10.0r,val_dataloader,test_dataloader,X_train,Y_train
+* psutil==5.3.0
