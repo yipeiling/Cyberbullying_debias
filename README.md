@@ -1,7 +1,8 @@
 # ID-XCB: Data-independent Debiasing for cyberbullying detection
 Implementation of paper: ID-XCB: Data-independent Debiasing for Fair and Accurate Transformer-based Cyberbullying Detection
 <img src="https://github.com/yipeiling/Cyberbullying-debias/blob/main/Architecture.png" width=40% height=40%>
-Architecture.png
+
+
 
 
 
