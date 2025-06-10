@@ -3,11 +3,7 @@ Implementation of paper: ID-XCB: Data-independent Debiasing for Fair and Accurat
 <p align=center><img src="Architecture.png" width="500" center/>
 
 ## Main idea and implementation
-Irony is a powerful figurative language (FL) on social media that can potentially mislead various NLP tasks, such as recommendation systems, misinformation checks, and
-sentiment analysis. Understanding the implicit meaning of this kind of subtle language is an essential step to mitigate the negative impact of irony in NLP tasks. However, existing efforts are limited
-to domain-specific datasets and struggle to generalise across diverse real-world scenarios. Moreover, the reasoning for model decisions that accurately capture semantic and affective meaning
-remains underexplored. To address these limitations, this paper proposes a conceptual framework called IDADP, which leverages Large language models(LLMs)’ in-context learning capabilities
-to detect irony and generate human-like explanations across diverse datasets and platforms without prior training on ironic samples
+We combine the three training losses to fine-tune a classifier. Adversarial training(**Embedding loss**) and task training(**BCELoss**) optimise ID-XCB model parameters on a training dataset and simultaneously enforce the fairness constraints(**FC**) on a validation set to reduce swear word impact.
 <p align=center><img src="code.png" width="600" center/>
 
 ## Datasets 
